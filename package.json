@@ -17,7 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "test:push": "react-scripts test --bail --coverage --findRelatedTests ",
+    "test:push": "react-scripts test --bail --coverage",
     "lint": "eslint '*/**/*.js' --fix",
     "eject": "react-scripts eject",
     "pretty": "prettier --write 'src/**/*.{js,jsx,ts,tsx,json,css,scss,md}'"
@@ -31,8 +31,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "npm run lint && npm run test:push "
+      "pre-commit": "lint-staged"
     }
   },
   "eslintConfig": {
