@@ -1,0 +1,25 @@
+{
+  "parserOptions": {
+    "parser": "babel-eslint",
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "extends": ["react-app", "plugin:react/recommended", "plugin:prettier/recommended"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "no-unused-vars": "off",
+    "no-console": "error"
+  },
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true
+  },
+  "ignorePatterns": ["node_modules/", "build/"],
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "detect"
+    }
+  }
+}
