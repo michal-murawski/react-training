@@ -129,5 +129,5 @@ yarn-error.log*
 
 # IDE Specific
 .history
-.idea
+#.idea
 .vscode
