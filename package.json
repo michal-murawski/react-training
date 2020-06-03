@@ -6,11 +6,13 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
     "babel-eslint": "^10.0.3",
     "prettier": "^2.0.5",
     "pretty-quick": "^2.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-modal": "^3.11.2",
     "react-scripts": "3.4.1"
   },
   "scripts": {
@@ -18,8 +20,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test:push": "react-scripts test --bail --coverage",
-    "lint": "eslint '*/**/*.js' --fix",
     "eject": "react-scripts eject",
+    "lint": "eslint '*/**/*.js' --fix",
     "pretty": "prettier --write 'src/**/*.{js,jsx,ts,tsx,json,css,scss,md}'"
   },
   "lint-staged": {

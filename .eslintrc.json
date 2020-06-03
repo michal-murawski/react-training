@@ -9,7 +9,8 @@
   "rules": {
     "prettier/prettier": "error",
     "no-unused-vars": "off",
-    "no-console": "error"
+    // "no-console": "error",
+    "react/prop-types": "off"
   },
   "parser": "babel-eslint",
   "env": {
